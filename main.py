@@ -18,11 +18,11 @@ form = """
             <div style="color:red">%(error_username)s</div>
 
             <label> Password </label>
-            <input type="text" name="password" value=""/><br>
+            <input type="password" name="password" value=""/><br>
             <div style="color:red">%(error_password)s</div>
 
             <label> Verify Password </label>
-            <input type="text" name="verify" value=""/><br>
+            <input type="password" name="verify" value=""/><br>
             <div style="color:red">%(error_verify)s</div>
 
             <label> Email(Optional) </label>
